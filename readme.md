@@ -10,7 +10,7 @@ Using SSH from another computer or from a Raspberry Pi command line directly, en
 `sudo apt-get install python3-distutils`
 
 ## Step 2
-Get the “aioblescan” bluetooth scanner module customized with Tilt plugin, unzip downloaded file, go to install folder, and install. Once you complete this step, you can run the command "sudo python3 -u -m aioblescan -T" to verify Tilt scanner is working. Make sure Tilt is nearby and floating if doing the test. Use "ctrl-c" to stop scanning.
+Get the “aioblescan” bluetooth scanner module customized with Tilt plugin, unzip downloaded file, go to install folder, and install. Once you complete this step, you can run the command "sudo python3 -u -m aioblescan --tilt" to verify Tilt scanner is working. Make sure Tilt is nearby and floating if doing the test. Use "ctrl-c" to stop scanning.
 
 `wget https://github.com/baronbrew/aioblescan/archive/master.zip`
 
