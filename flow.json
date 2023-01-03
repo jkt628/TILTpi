@@ -5116,7 +5116,7 @@
         "type": "trigger",
         "z": "a564595f.642818",
         "op1": "pkill -f aioblescan",
-        "op2": "python3 -u -m aioblescan --tilt",
+        "op2": "python3 -u -m aioblescan --tilt --skip-leader",
         "op1type": "str",
         "op2type": "str",
         "duration": "5",
