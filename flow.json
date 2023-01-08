@@ -5063,7 +5063,7 @@
         "id": "9d251f5a.10bdc",
         "type": "exec",
         "z": "a564595f.642818",
-        "command": "sudo",
+        "command": "env",
         "addpay": true,
         "append": "",
         "useSpawn": "true",
